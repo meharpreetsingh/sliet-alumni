@@ -110,6 +110,7 @@ Buttons
 Common Components
 ===================== */
 .nav {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -240,6 +241,7 @@ Common Components
 }
 
 .footer {
+  font-family: "Poppins", sans-serif;
   text-align: center;
   padding: 3rem;
   font-size: 1.6rem;
@@ -254,6 +256,7 @@ Common Components
 }
 
 .mobile-nav {
+  font-family: "Poppins", sans-serif;
   position: fixed;
   height: 100vh;
   background-color: #ffffff99;
@@ -1428,6 +1431,97 @@ HOMEPAGE
 }
 .register__main__login-form-container__form__group__forgetpassword:hover {
   text-decoration: underline;
+}
+
+.profile__body-container {
+  font-family: "Poppins";
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10rem 10rem;
+  grid-gap: 10rem;
+  min-height: 79vh;
+}
+@media only screen and (max-width: 56.25em) {
+  .profile__body-container {
+    padding: 4rem;
+    grid-gap: 5rem;
+    grid-template-columns: unset;
+  }
+}
+.profile__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.profile__header__profile {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 3rem;
+}
+.profile__header__profile__basic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+}
+.profile__header__profile__basic-info__dp {
+  max-width: 30rem;
+  max-height: 30rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 2rem;
+}
+.profile__header__profile__basic-info__text__name {
+  font-size: 3.8rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .profile__header__profile__basic-info__text__name {
+    font-size: 3.6rem;
+  }
+}
+.profile__header__profile__external-links {
+  display: flex;
+  flex-direction: column;
+}
+.profile__header__profile__external-links__links {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+.profile__header__profile__external-links__links__link {
+  max-width: 3rem;
+}
+.profile__main {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.profile__main__info-container:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+.profile__main__info-container__heading {
+  margin-bottom: 1.5rem;
+}
+.profile__main__info-container__info {
+  display: flex;
+  flex-direction: column;
+}
+.profile__main__info-container__info__group {
+  display: grid;
+  grid-gap: 1rem;
+  align-items: center;
+  grid-template-columns: 13.5rem 1fr;
+}
+.profile__main__info-container__info__group__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+.profile__main__info-container__info__group__text {
+  font-size: 1.6rem;
 }
 
 /* -=-=-=-=-=-=
