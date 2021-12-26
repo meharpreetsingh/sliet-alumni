@@ -849,7 +849,10 @@ HOMEPAGE
   flex-direction: column;
   grid-gap: 1rem;
   overflow-y: auto;
-  display: none;
+}
+.dashboard__edit-profile-container__form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
 }
 .dashboard__edit-profile-container__close-button {
   position: absolute;
@@ -871,8 +874,15 @@ HOMEPAGE
 }
 .dashboard__edit-profile-container__form__input-group {
   display: grid;
-  grid-template-columns: minmax(1.5rem, 1fr) 1fr;
+  align-items: center;
   grid-gap: 1rem;
+}
+.dashboard__edit-profile-container__form__input-group:nth-last-child(2) {
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.dashboard__edit-profile-container__form__input-group:last-of-type {
+  grid-template-columns: min-content min-content;
 }
 .dashboard__edit-profile-container__form__input-group__label {
   font-size: 1.6rem;
