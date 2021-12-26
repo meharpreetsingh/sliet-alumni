@@ -1268,6 +1268,87 @@ HOMEPAGE
   font-size: 1.6rem;
 }
 
+.login__body-container {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color-black);
+}
+.login__main {
+  padding: 10rem 10rem 10rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  background-image: url("../img/SLIET_Longowal_Main_Building.jpg");
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 56.25em) {
+  .login__main {
+    padding: 4rem 4rem 4rem 4rem;
+  }
+}
+.login__main__login-form-container {
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 1px 3px 6px #22222222;
+  background-color: #ffffff99;
+  backdrop-filter: blur(0.6rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 3rem;
+}
+.login__main__login-form-container__heading {
+  font-size: 3.6rem;
+  user-select: none;
+}
+.login__main__login-form-container__form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2rem;
+}
+.login__main__login-form-container__form__group {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.login__main__login-form-container__form__group__label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  user-select: none;
+}
+.login__main__login-form-container__form__group__input {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #ffffffee;
+  border: 1px solid #ffffff66;
+}
+.login__main__login-form-container__form__group__input[type=submit] {
+  padding: 1rem 3rem;
+  color: var(--text-color-white);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all 0.4s;
+  width: fit-content;
+}
+.login__main__login-form-container__form__group__input[type=submit]:hover {
+  background-color: var(--primary-color-darken);
+  border: 1px solid var(--primary-color-darken);
+}
+.login__main__login-form-container__form__group__forgetpassword {
+  font-size: 1.6rem;
+  justify-self: end;
+  transition: all 0.4s;
+}
+.login__main__login-form-container__form__group__forgetpassword:hover {
+  text-decoration: underline;
+}
+
 /* -=-=-=-=-=-=
 CSS Utilities
 -=-=-=-=-=-= */
