@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumnies | SLIET ALUMNI</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/resources/css/style.css" />
+  </head>
+  <body>
+    <!-- Body Container -->
+    <div class="alumni__body-container">
+      <div class="mobile-nav">
+        <div class="mobile-nav__close-button">X</div>
+        <div class="mobile-nav__menu">
+          <a href="#" class="mobile-nav__menu__link">Home</a>
+          <a href="alumni.html" class="mobile-nav__menu__link">Alumni</a>
+          <a href="about.html" class="mobile-nav__menu__link">About</a>
+          <a href="#" class="mobile-nav__menu__link">Gallery</a>
+          <a href="#" class="mobile-nav__menu__link">Contact</a>
+        </div>
+        <div class="mobile-nav__cta">
+          <a href="#" class="mobile-nav__cta__link">Login / Register</a>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img src="resources/img/sliet-logo.png" alt="sliet-logo" />
+          SLIET Alumni
+        </a>
+        <div class="nav__menu">
+          <a href="#" class="nav__menu__link">Home</a>
+          <a href="alumni.html" class="nav__menu__link">Alumni</a>
+
+          <a href="about.html" class="nav__menu__link">About</a>
+          <a href="#" class="nav__menu__link">Gallery</a>
+          <a href="#" class="nav__menu__link">Contact</a>
+        </div>
+        <div class="nav__cta">
+          <a href="#" class="nav__cta__link">Login/Register</a>
+        </div>
+        <div class="nav__mobile-nav__icon"></div>
+      </nav>
+      <!-- Main Part Here -->
+      <header class="alumni__header">
+        <div class="alumni__header__filters">
+          <div class="alumni__header__filters__group text--bold">Filters:</div>
+          <div class="alumni__header__filters__group">
+            <div class="alumni__header__filters__group__option">
+              Graduation Year
+              <span class="alumni__header__filters__group__option__selected display--none">()</span>
+              <img
+                src="resources/img/icons/down-arrow-svgrepo-com.svg"
+                alt=""
+                class="alumni__header__filters__group__option__icon"
+              />
+            </div>
+            <div class="alumni__header__filters__group__dropdown display--none">
+              <div class="alumni__header__filters__group__dropdown__container">
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYearAll" name="all-year" value="every-year" />
+                  <label for="filterYearAll"> All Year </label>
+                </div>
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYear2017" name="2017" value="2017" />
+                  <label for="filterYear2017">2017</label>
+                </div>
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYear2018" name="2018" value="2018" />
+                  <label for="filterYear2018">2018</label>
+                </div>
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYear2019" name="2019" value="2019" />
+                  <label for="filterYear2019">2019</label>
+                </div>
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYear2020" name="2020" value="2020" />
+                  <label for="filterYear2020">2020</label>
+                </div>
+                <div class="alumni__header__filters__group__dropdown__container__group">
+                  <input type="checkbox" id="filterYear2021" name="2021" value="2021" />
+                  <label for="filterYear2021">2021</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="alumni__header__filters__group">
+            <div class="alumni__header__filters__group__option">
+              Course
+              <span class="alumni__header__filters__group__option__selected display--none">()</span>
+              <img
+                src="resources/img/icons/down-arrow-svgrepo-com.svg"
+                alt=""
+                class="alumni__header__filters__group__option__icon"
+              />
+            </div>
+            <div class="alumni__header__filters__group__dropdown display--none">
+              <div class="alumni__header__filters__group__dropdown__container"></div>
+            </div>
+          </div>
+
+          <div class="alumni__header__filters__group">
+            <div class="alumni__header__filters__group__option">
+              Location
+              <span class="alumni__header__filters__group__option__selected display--none">()</span>
+              <img
+                src="resources/img/icons/down-arrow-svgrepo-com.svg"
+                alt=""
+                class="alumni__header__filters__group__option__icon"
+              />
+            </div>
+            <div class="alumni__header__filters__group__dropdown display--none">
+              <div class="alumni__header__filters__group__dropdown__container"></div>
+            </div>
+          </div>
+        </div>
+        <div class="alumni__header__search">
+          <input type="text" name="alumniSearch" id="alumni-search" placeholder="Search" />
+          <button id="alumniSearchButton">
+            <img src="resources/img/icons/search_icon.svg" alt="" srcset="" />
+          </button>
+        </div>
+      </header>
+      <div class="alumni__alumni-info-popup">
+        <div class="alumni__alumni-info-popup__close-button">X</div>
+        <div class="alumni__alumni-info-popup__header">
+          <img
+            src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+            alt="user"
+            class="alumni__alumni-info-popup__header__img"
+          />
+          <div class="alumni__alumni-info-popup__header__user-info">
+            <div class="alumni__alumni-info-popup__header__user-info__name">Meharpreet Singh</div>
+            <div class="alumni__alumni-info-popup__header__user-info__current-job">
+              North American Sales Leader, ITC
+            </div>
+            <div class="alumni__alumni-info-popup__header__user-info__qualification">B.E.</div>
+          </div>
+        </div>
+        <div class="alumni__alumni-info-popup__body">
+          <div class="alumni__alumni-info-popup__body__about">
+            SLIET is a gurukul offering a real culture exposure to budding engineers with a mix of
+            students from all over the country. <br /><br />Collaboration of ideas from such a group
+            not only helps conceive technological ideas but also prepares students to work in a
+            multicultural team.
+          </div>
+          <div class="alumni__alumni-info-popup__body__social-links">
+            <h4 class="alumni__alumni-info-popup__body__social-links__heading">Profile Links:</h4>
+            <div class="alumni__alumni-info-popup__body__social-links__link">
+              <div class="alumni__alumni-info-popup__body__social-links__link__icon">
+                <img src="resources/img/icons/linkedin.svg" alt="" />
+              </div>
+              <a href="#" class="alumni__alumni-info-popup__body__social-links__link__address"
+                >/mehar.sidhu</a
+              >
+            </div>
+            <div class="alumni__alumni-info-popup__body__social-links__link">
+              <div class="alumni__alumni-info-popup__body__social-links__link__icon">
+                <img src="resources/img/icons/facebook.svg" alt="" />
+              </div>
+              <a href="#" class="alumni__alumni-info-popup__body__social-links__link__address"
+                >/mehar.sidhu</a
+              >
+            </div>
+            <div class="alumni__alumni-info-popup__body__social-links__link">
+              <div class="alumni__alumni-info-popup__body__social-links__link__icon">
+                <img src="resources/img/icons/instagram.svg" alt="" />
+              </div>
+              <a href="#" class="alumni__alumni-info-popup__body__social-links__link__address"
+                >/mehar.sidhu</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="alumni__main">
+        <div class="alumni__main__searchResults">
+          <div class="alumni__main__searchResults__result" id="searchResult1">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="alumni__main__searchResults__result__img"
+            />
+            <div class="alumni__main__searchResults__result__info">
+              <div class="alumni__main__searchResults__result__info__name">Meharpreet Singh</div>
+              <div class="alumni__main__searchResults__result__info__qualification">B.E.</div>
+              <div class="alumni__main__searchResults__result__info__year">2023</div>
+            </div>
+          </div>
+          <div class="alumni__main__searchResults__result" id="searchResult2">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="alumni__main__searchResults__result__img"
+            />
+            <div class="alumni__main__searchResults__result__info">
+              <div class="alumni__main__searchResults__result__info__name">Meharpreet Singh</div>
+              <div class="alumni__main__searchResults__result__info__qualification">B.E.</div>
+              <div class="alumni__main__searchResults__result__info__year">2023</div>
+            </div>
+          </div>
+          <div class="alumni__main__searchResults__result" id="searchResult3">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="alumni__main__searchResults__result__img"
+            />
+            <div class="alumni__main__searchResults__result__info">
+              <div class="alumni__main__searchResults__result__info__name">Meharpreet Singh</div>
+              <div class="alumni__main__searchResults__result__info__qualification">B.E.</div>
+              <div class="alumni__main__searchResults__result__info__year">2023</div>
+            </div>
+          </div>
+          <div class="alumni__main__searchResults__result" id="searchResult4">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="alumni__main__searchResults__result__img"
+            />
+            <div class="alumni__main__searchResults__result__info">
+              <div class="alumni__main__searchResults__result__info__name">Meharpreet Singh</div>
+              <div class="alumni__main__searchResults__result__info__qualification">B.E.</div>
+              <div class="alumni__main__searchResults__result__info__year">2023</div>
+            </div>
+          </div>
+          <div class="alumni__main__searchResults__result" id="searchResult5">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="alumni__main__searchResults__result__img"
+            />
+            <div class="alumni__main__searchResults__result__info">
+              <div class="alumni__main__searchResults__result__info__name">Meharpreet Singh</div>
+              <div class="alumni__main__searchResults__result__info__qualification">B.E.</div>
+              <div class="alumni__main__searchResults__result__info__year">2023</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        © 2021 <a href="http://www.sliet.ac.in/" class="footer__website">SLIET Website</a>
+      </footer>
+    </div>
+    <!-- script -->
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>

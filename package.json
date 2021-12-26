@@ -1,0 +1,24 @@
+{
+  "name": "sliet-alumni",
+  "version": "1.0.0",
+  "description": "Sliet Alumni website",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass resources/sass/main.scss resources/css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "sass resources/sass/main.scss resources/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' resources/css/style.concat.css -o resources/css/style.prefix.css",
+    "compress:css": "sass resources/css/style.prefix.css resources/css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
+  },
+  "author": "Meharpreet Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "sass": "^1.37.5",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  }
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | SLIET ALUMNI</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/resources/css/style.css" />
+  </head>
+  <body>
+    <!-- Body Container -->
+    <div class="dashboard__body-container">
+      <div class="dashboard__edit-profile-container">
+        <div class="dashboard__edit-profile-container__close-button">X</div>
+        <div class="dashboard__edit-profile-container__heading heading-3">Edit Profile</div>
+        <form class="dashboard__edit-profile-container__form">
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="dashboardName"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >Name</label
+            >
+            <input
+              id="dashboardName"
+              type="text"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="dateOfBirth"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >DOB</label
+            >
+            <input
+              id="dateOfBirth"
+              type="date"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label for="privacy" class="dashboard__edit-profile-container__form__input-group__label"
+              >Show contact information</label
+            >
+            <input
+              id="privacy"
+              type="checkbox"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <input
+              type="submit"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <input
+              type="reset"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+        </form>
+        <div class="dashboard__edit-profile-container__heading heading-3">Change Password</div>
+        <form class="dashboard__edit-profile-container__form">
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="dashboardName"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >Current Password</label
+            >
+            <input
+              id="currentPassword"
+              type="password"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="newpassword"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >New Password</label
+            >
+            <input
+              id="newpassword"
+              type="password"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="confirmpassword"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >Confirm Password:</label
+            >
+            <input
+              id="confirmpassword"
+              type="text"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <label
+              for="showPassword"
+              class="dashboard__edit-profile-container__form__input-group__label"
+              >Show Password</label
+            >
+            <input
+              id="showPassword"
+              type="checkbox"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <input
+              type="submit"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+          <div class="dashboard__edit-profile-container__form__input-group">
+            <input
+              type="reset"
+              class="dashboard__edit-profile-container__form__input-group__input"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobile-nav__close-button">X</div>
+        <div class="mobile-nav__menu">
+          <a href="#" class="mobile-nav__menu__link">Home</a>
+          <a href="alumni.html" class="mobile-nav__menu__link">Alumni</a>
+          <a href="#" class="mobile-nav__menu__link">About</a>
+          <a href="#" class="mobile-nav__menu__link">Gallery</a>
+          <a href="#" class="mobile-nav__menu__link">Contact</a>
+        </div>
+        <div class="mobile-nav__cta">
+          <a href="#" class="mobile-nav__cta__link">Login / Register</a>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img src="resources/img/sliet-logo.png" alt="sliet-logo" />
+          SLIET Alumni
+        </a>
+        <div class="nav__menu">
+          <a href="#" class="nav__menu__link">Home</a>
+          <a href="alumni.html" class="nav__menu__link">Alumni</a>
+
+          <a href="about.html" class="nav__menu__link">About</a>
+          <a href="#" class="nav__menu__link">Gallery</a>
+          <a href="#" class="nav__menu__link">Contact</a>
+        </div>
+        <div class="nav__cta">
+          <a href="#" class="nav__cta__link">Login/Register</a>
+        </div>
+        <div class="nav__mobile-nav__icon"></div>
+      </nav>
+      <!-- Main Part Here -->
+      <div class="dashboard__sidebar">
+        <div class="dashboard__sidebar__profile">
+          <img
+            src="/resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+            alt="user"
+            class="dashboard__sidebar__profile__dp"
+          />
+          <div class="dashboard__sidebar__profile__name">Meharpreet Singh</div>
+          <div class="dashboard__sidebar__profile__qualification">B.E.</div>
+        </div>
+        <div class="dashboard__sidebar__buttons">
+          <div
+            class="dashboard__sidebar__buttons__button dashboard__sidebar__buttons__button--active"
+          >
+            Profile
+          </div>
+          <div class="dashboard__sidebar__buttons__button">Change Password</div>
+        </div>
+        <div class="dashboard__sidebar__social">
+          <div class="dashboard__sidebar__social__title">Join us at:</div>
+          <div class="dashboard__sidebar__social__links">
+            <a href="#" class="dashboard__sidebar__social__links__link">
+              <img
+                src="/resources/img/icons/facebook.svg"
+                alt=""
+                class="dashboard__sidebar__social__links__link__icon"
+              />
+            </a>
+            <a href="#" class="dashboard__sidebar__social__links__link">
+              <img
+                src="/resources/img/icons/instagram.svg"
+                alt=""
+                class="dashboard__sidebar__social__links__link__icon"
+              />
+            </a>
+            <a href="#" class="dashboard__sidebar__social__links__link">
+              <img
+                src="/resources/img/icons/linkedin.svg"
+                alt=""
+                class="dashboard__sidebar__social__links__link__icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <header class="dashboard__header">
+        <div class="dashboard__header__profile">
+          <div class="dashboard__header__profile__basic-info">
+            <img
+              src="resources/img/dahiana-waszaj-XQWfro4LrVs-unsplash.jpg"
+              alt=""
+              class="dashboard__header__profile__basic-info__dp"
+            />
+            <div class="dashboard__header__profile__basic-info__text">
+              <h1 class="dashboard__header__profile__basic-info__text__name heading-1">
+                Meharpreet Singh
+              </h1>
+              <p class="dashboard__header__profile__basic-info__text__brief">
+                Bachelors in Engineering
+              </p>
+              <div class="dashboard__header__profile__basic-info__text__buttons">
+                <button class="dashboard__header__profile__basic-info__text__buttons--edit-profile">
+                  Edit profile
+                </button>
+                <button class="dashboard__header__profile__basic-info__text__buttons--reqalumni">
+                  Request Alumni
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard__header__profile__external-links">
+            <div class="dashboard__header__profile__external-links__basic">
+              <div class="dashboard__header__profile__external-links__basic__group">
+                <div class="dashboard__header__profile__external-links__basic__group__title">
+                  Age
+                </div>
+                <div class="dashboard__header__profile__external-links__basic__group__info">23</div>
+              </div>
+              <div class="dashboard__header__profile__external-links__basic__group">
+                <div class="dashboard__header__profile__external-links__basic__group__title">
+                  Location
+                </div>
+                <div class="dashboard__header__profile__external-links__basic__group__info">
+                  Sangrur
+                </div>
+              </div>
+            </div>
+            <div class="dashboard__header__profile__external-links__links">
+              <div class="dashboard__header__profile__external-links__links__link">
+                <a href="#" class="dashboard__header__profile__external-links__links__link__icon">
+                  <img src="resources/img/icons/linkedin.svg" alt="" />
+                </a>
+              </div>
+              <div class="dashboard__header__profile__external-links__links__link">
+                <a href="#" class="dashboard__header__profile__external-links__links__link__icon">
+                  <img src="resources/img/icons/facebook.svg" alt="" />
+                </a>
+              </div>
+              <div class="dashboard__header__profile__external-links__links__link">
+                <a href="#" class="dashboard__header__profile__external-links__links__link__icon">
+                  <img src="resources/img/icons/instagram.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="dashboard__main"></main>
+      <!-- Footer Part -->
+      <footer class="footer">
+        © 2021 <a href="http://www.sliet.ac.in/" class="footer__website">SLIET Website</a>
+      </footer>
+    </div>
+    <!-- script -->
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
