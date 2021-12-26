@@ -866,13 +866,15 @@ HOMEPAGE
   margin-bottom: 1rem;
 }
 .dashboard__edit-profile-container__form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-gap: 1rem;
 }
 .dashboard__edit-profile-container__form:not(:last-of-type) {
   margin-bottom: 1rem;
 }
 .dashboard__edit-profile-container__form__input-group {
+  width: 100%;
   display: grid;
   align-items: center;
   grid-gap: 1rem;
