@@ -103,10 +103,12 @@ Typography
 h1,
 .heading-1 {
   font-size: 4.8rem;
+  font-weight: 700;
 }
 h2,
 .heading-2 {
   font-size: 3.6rem;
+  font-weight: 700;
 }
 h3,
 .heading-3 {
@@ -1632,6 +1634,51 @@ HOMEPAGE
           color: var(--text-color-white);
           backdrop-filter: blur(1px);
         }
+      }
+    }
+  }
+}
+// About
+.about {
+  &__body-container {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+
+    min-height: 79vh;
+  }
+  &__header {
+    background-image: linear-gradient(to right bottom, #0092dc55, #0092dc55),
+      url('../img/sliet-alumni-about.jfif');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--text-color-white);
+    text-shadow: 1px 2px 4px #22222255;
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3rem;
+  }
+  &__header-tagline {
+    text-align: center;
+    padding: 2rem 3rem;
+  }
+  &__paragraph {
+    padding: 3rem 10rem;
+    @include respond(tab-port) {
+      padding: 3rem 4rem;
+    }
+    p {
+      text-align: center;
+      &:not(:last-of-type) {
+        margin-bottom: 2rem;
       }
     }
   }
